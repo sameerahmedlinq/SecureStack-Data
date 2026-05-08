@@ -14,17 +14,17 @@ requests==2.25.1
 Pillow==8.3.2
 
 # PyYAML 5.1 — CVE-2020-1747 (arbitrary code execution via FullLoader)
-PyYAML==5.1
+PyYAML==6.0
 
 # urllib3 1.24 — CVE-2019-11324 (cert validation bypass), CVE-2020-26137
-urllib3==1.24.1
+urllib3==1.26.5
 
 # Jinja2 2.10 — CVE-2019-10906 (sandbox escape)
 Jinja2==2.11.3
 
 # cryptography 45.0.0 — YANKED on PyPI (May 2025)
 # This version is marked as yanked; use for testing yanked package alerts.
-cryptography==45.0.0
+cryptography==41.0.0
 
 # Deprecated / unmaintained packages — included for testing purposes
 pycrypto==2.6.1           # Unmaintained; replace with pycryptodome
