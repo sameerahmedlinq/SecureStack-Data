@@ -1,0 +1,43 @@
+# Demo Python dependencies — intentionally outdated and vulnerable
+# Use this file to test scan/advisor flows in Secure-Stack.
+
+# Django 2.2 — many CVEs (SQLi, XSS, account takeover); latest is 5.x
+Django==2.2.0
+
+# Flask 0.12 — outdated by several major versions; CVE-2018-1000656
+Flask==0.12.2
+
+# requests 2.18 — CVE-2018-18074 (credential leak via redirect)
+requests==2.18.4
+
+# Pillow 6.2 — multiple CVEs (CVE-2020-5310, CVE-2020-10177 etc.)
+Pillow==6.2.0
+
+# PyYAML 5.1 — CVE-2020-1747 (arbitrary code execution via FullLoader)
+PyYAML==5.1
+
+# urllib3 1.24 — CVE-2019-11324 (cert validation bypass), CVE-2020-26137
+urllib3==1.24.1
+
+# Jinja2 2.10 — CVE-2019-10906 (sandbox escape)
+Jinja2==2.10
+
+# cryptography 45.0.0 — YANKED on PyPI (May 2025)
+# This version is marked as yanked; use for testing yanked package alerts.
+cryptography==45.0.0
+
+# Deprecated / unmaintained packages — included for testing purposes
+pycrypto==2.6.1           # Unmaintained; replace with pycryptodome
+BeautifulSoup==3.2.2      # Deprecated (BS3); use beautifulsoup4
+MySQL-python==1.2.5       # Unmaintained; Python 3 incompatibilities
+distribute==0.6.49       # Deprecated (merged back into setuptools)
+South==1.0.2             # Deprecated (replaced by Django's built-in migrations)
+nose==1.3.7              # Deprecated; unmaintained, use pytest
+
+# This project has had all of its releases yanked
+pycrypto-wheels==2.6.1
+
+# This package will trigger data.info.yanked = true
+models==0.9.3
+
+# attrs 21.1.0 — YANKED (Installable but not importable on Python 3.4)
