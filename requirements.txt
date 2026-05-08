@@ -1,17 +1,11 @@
 # Demo Python dependencies — intentionally outdated and vulnerable
 # Use this file to test scan/advisor flows in Secure-Stack.
 
-# Django 2.2 — many CVEs (SQLi, XSS, account takeover); latest is 5.x
-Django==3.2.0
-
 # Flask 0.12 — outdated by several major versions; CVE-2018-1000656
 Flask==1.1.4
 
 # requests 2.18 — CVE-2018-18074 (credential leak via redirect)
 requests==2.25.1
-
-# Pillow 6.2 — multiple CVEs (CVE-2020-5310, CVE-2020-10177 etc.)
-Pillow==8.3.2
 
 # PyYAML 5.1 — CVE-2020-1747 (arbitrary code execution via FullLoader)
 PyYAML==6.0

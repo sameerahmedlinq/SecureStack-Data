@@ -34,13 +34,6 @@
             <version>5.3.23</version>
         </dependency>
 
-        <!-- Jackson Databind 2.9.8 - CVE-2019-12384, CVE-2019-14540, CVE-2019-16335 -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.12.6</version>
-        </dependency>
-
         <!-- Apache Commons Collections 3.2.1 - CVE-2015-6420 (deserialization) -->
         <dependency>
             <groupId>commons-collections</groupId>
