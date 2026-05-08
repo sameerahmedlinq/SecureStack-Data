@@ -24,21 +24,21 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.17.1</version>
+            <version>2.25.4</version>
         </dependency>
 
         <!-- Spring Framework 5.2.0 - CVE-2021-22096, CVE-2022-22965 (Spring4Shell) -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.3.23</version>
+            <version>6.2.11</version>
         </dependency>
 
         <!-- Apache Commons Collections 3.2.1 - CVE-2015-6420 (deserialization) -->
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.2</version>
         </dependency>
 
         <!-- Apache Struts 2.3.16 - CVE-2017-5638 (remote code execution) -->
@@ -52,7 +52,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
 
@@ -60,21 +60,21 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
-            <version>1.5</version>
+            <version>1.6.0</version>
         </dependency>
 
         <!-- Apache Commons Compress 1.18 - CVE-2019-12402 (infinite loop DoS) -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-compress</artifactId>
-            <version>1.18</version>
+            <version>1.26.0</version>
         </dependency>
 
         <!-- Netty 4.1.42 - CVE-2019-20444, CVE-2019-20445 (HTTP request smuggling) -->
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.42.Final</version>
+            <version>4.1.119.Final</version>
         </dependency>
 
         <!-- Gson 2.8.5 - CVE-2022-25647 (DoS) -->
@@ -90,7 +90,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.18.0</version>
             </plugin>
         </plugins>
     </build>
