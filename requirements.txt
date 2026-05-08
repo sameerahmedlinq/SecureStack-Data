@@ -8,7 +8,7 @@ Django==3.2.0
 Flask==1.1.4
 
 # requests 2.18 — CVE-2018-18074 (credential leak via redirect)
-requests==2.25.1
+requests==2.33.0
 
 # Pillow 6.2 — multiple CVEs (CVE-2020-5310, CVE-2020-10177 etc.)
 Pillow==8.3.2
@@ -17,10 +17,10 @@ Pillow==8.3.2
 PyYAML==6.0
 
 # urllib3 1.24 — CVE-2019-11324 (cert validation bypass), CVE-2020-26137
-urllib3==1.26.5
+urllib3==2.6.3
 
 # Jinja2 2.10 — CVE-2019-10906 (sandbox escape)
-Jinja2==2.11.3
+Jinja2==3.1.6
 
 # cryptography 45.0.0 — YANKED on PyPI (May 2025)
 # This version is marked as yanked; use for testing yanked package alerts.
