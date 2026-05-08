@@ -2,29 +2,29 @@
 # Use this file to test scan/advisor flows in Secure-Stack.
 
 # Django 2.2 — many CVEs (SQLi, XSS, account takeover); latest is 5.x
-Django==2.2.0
+Django==4.2.23
 
 # Flask 0.12 — outdated by several major versions; CVE-2018-1000656
-Flask==0.12.2
+Flask==3.1.1
 
 # requests 2.18 — CVE-2018-18074 (credential leak via redirect)
-requests==2.18.4
+requests==2.33.0
 
 # Pillow 6.2 — multiple CVEs (CVE-2020-5310, CVE-2020-10177 etc.)
-Pillow==6.2.0
+Pillow==10.4.0
 
 # PyYAML 5.1 — CVE-2020-1747 (arbitrary code execution via FullLoader)
-PyYAML==5.1
+PyYAML==6.0.2
 
 # urllib3 1.24 — CVE-2019-11324 (cert validation bypass), CVE-2020-26137
-urllib3==1.24.1
+urllib3==2.6.3
 
 # Jinja2 2.10 — CVE-2019-10906 (sandbox escape)
-Jinja2==2.10
+Jinja2==3.1.6
 
 # cryptography 45.0.0 — YANKED on PyPI (May 2025)
 # This version is marked as yanked; use for testing yanked package alerts.
-cryptography==45.0.0
+cryptography==46.0.7
 
 # Deprecated / unmaintained packages — included for testing purposes
 pycrypto==2.6.1           # Unmaintained; replace with pycryptodome
