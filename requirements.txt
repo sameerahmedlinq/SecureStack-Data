@@ -2,7 +2,7 @@
 # Use this file to test scan/advisor flows in Secure-Stack.
 
 # Flask 0.12 — outdated by several major versions; CVE-2018-1000656
-Flask==1.1.4
+Flask==2.3.2
 
 # requests 2.18 — CVE-2018-18074 (credential leak via redirect)
 requests==2.33.0
@@ -18,7 +18,7 @@ Jinja2==3.1.6
 
 # cryptography 45.0.0 — YANKED on PyPI (May 2025)
 # This version is marked as yanked; use for testing yanked package alerts.
-cryptography==41.0.0
+cryptography==46.0.6
 
 # Deprecated / unmaintained packages — included for testing purposes
 pycrypto==2.6.1           # Unmaintained; replace with pycryptodome
